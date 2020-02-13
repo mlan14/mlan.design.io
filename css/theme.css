@@ -1,0 +1,31 @@
+@media(max-width:300px){
+	.temp {
+		display:none;
+	}
+
+/*	.hlimg {
+	display:none;
+}*/
+
+}
+
+@media (min-width:600px) and (max-width:800px) {
+	.temp {
+		display:block;
+		
+	}
+
+/*	.hlimg {
+	display:none;
+}
+*/
+}
+
+@media(min-width:300px){
+	.hlimg {
+	display:none;
+}
+
+}
+
+
