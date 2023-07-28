@@ -1,109 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Meng's Portfolio</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/common.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	body {
+	  margin: 0;
+	}
+	
+	/* Style the header */
+	.header {
+	  background-color: #f1f1f1;
+	  padding: 20px;
+	  text-align: center;
+	}
+	
+	/* Style the top navigation bar */
+	.topnav {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	
+	/* Style the topnav links */
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	/* Change color on hover */
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	</style>
 <body>
-	<header class="navbar">
-		<div class="container header" style="display:flex;">
-			<a href="index.html" style="flex:auto 1 1"><img src="img/logo.png" style="width:3em"></a>
-			<nav class="nav nav-pills nav-pills-invert" >
-				<ul>
-					<li class="navactive"><a href="index.html">Works</a></li>
-					<li class="navactive"><a href="about.html">About</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
 
-	<div class="container" style="margin:2em auto;">
-		<div class="row gap xs-small">
-			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7" style="margin-top:auto;margin-bottom:auto;">
-				<h1 style="font-size:4em;margin-top:0;">Hello!</h1>
-				<h2 style="font-size:2em;">I am Meng, a Visual Designer
-				</h2>
-				<p style="line-height:2em">I am highly creative and multi-talented.<br>
-				I am also used to surpassing expectations under tight deadlines.
-				</p>
-			</div>
-			<div class="hlimg col-md-5 col-lg-5">
-				<img class="temp" src="img/image_2.png" alt="" style="width:100%">
-			</div>
-		</div>
-		
-	</div>
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
 
-	<div id="" class="container">
-		<div class="row gap xs-small">
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/hertz_title.png" class="title-image">
-				<a href="hertz.html" class="overlay">
-					<div class="overlay">
-						<div class="text">UI&UX Design</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/teaplus_title.png" class="title-image">
-				<a href="teaplus.html" class="overlay">
-					<div class="overlay">
-						<div class="text">Web Design/<br>Back-End</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/typo_title.png" class="title-image">
-				<a href="typo.html" class="overlay">
-					<div class="overlay">
-						<div class="text">Graphic Design</div>
-					</div></a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/mopa_title.png" class="title-image">
-				<a href="mopa.html" class="overlay">
-					<div class="overlay">
-						<div class="text">Web Design/<br>Programming</div>
-					</div></a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/expedia_title.png" class="title-image">
-				<a href="expedia.html" class="overlay">
-					<div class="overlay">
-						<div class="text">Motion Graphic Design</div>
-					</div></a>
-			</div>						
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 title">
-				<img src="img/pickymon_title.png" class="title-image">
-				<a href="pickymon.html" class="overlay">
-					<div class="overlay">
-						<div class="text">Branding Design</div>
-					</div></a>
-			</div>
-			
-		</div>
-	</div> 
-	<br>
-	<br>
+<div class="header">
+	<h1>Header</h1>
+  </div>
 
-	<footer class="footerbar" style="margin-top:2em;padding:1em 0;">
-		<div class="container footer-flex">
-			<div class="footer"  style="justify-content:center;display:flex;margin-left:auto;margin-right:auto">
-				<ul class="">
-					<li><a href="index.html">Works</a></li>
-				 	<li><a href="https://drive.google.com/file/d/1S7_CRpeRTFL8oO9zF9LaMNzAU4r65bA7/view?usp=sharing">Resume</a></li>
-				  	<li><a href="https://www.behance.net/lanmengdesign">Behance</a></li>
-				 	<li><a href="https://www.linkedin.com/in/meng-lan-493b23b0/">LinkedIn</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="col-xs-12" style="text-align:center;font-size:0.6em;color:black">© 2019 Fall - Meng Lan</div>
-	</footer>
 </body>
 </html>
